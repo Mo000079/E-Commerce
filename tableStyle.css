@@ -1,0 +1,25 @@
+@media screen and (max-width: 800px) {
+    .list{
+        display: none;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #container {
+        display: block;
+        width: 100%;
+       
+    }
+    #h3{
+        width: 100%;
+    }
+    #container2{
+        display: block;
+    }
+
+
+}

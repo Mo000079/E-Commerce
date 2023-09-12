@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* :root{
+    
+    --primary-color:blue;
+    --secondary-color:rgba(63, 63, 71, 0.569);
+
+} */
+
+.nav {
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: 0 auto;
+    gap: 25%;
+    justify-content: center;
+    align-items: center;
+
+}
+/* #icon{
+    
+} */
+
+.list ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
+    margin: 0 auto;
+    list-style: none;
+    gap: 30px;
+
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    color: #1306c6;
+    align-items: center;
+
+
+}
+
+.btn {
+    background-color: #1306c6;
+    color: white;
+    width: 60px;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer
+}
+
+header {
+    display: grid;
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(237, 229, 229, 0.416);
+    justify-content: center;
+    grid-template-rows: 20px;
+    padding-top: 40px;
+}
+
+#p {
+    display: flex;
+    padding-left: 60px;
+    color: #1306c6;
+}
+#bimg{
+    height: 250px;
+    width: 600px;
+}
+.img {
+    width: 150px;
+    height: 100px;
+
+}
+
+main {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+
+}
+p {
+    font-size: small;
+    gap: 20px;
+}
+
+
+.divpic {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 8px;
+}
+
+
+.header2{
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    margin: 0 auto;
+    gap: 30%;
+
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 39, 163);
+    color: white;
+}
+
+#div{
+    display: flex;    
+    justify-content: center;
+    margin: 30px;
+}
+
+#lol{
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.botsec{
+    width: 300px;
+    overflow: hidden;
+    margin: 20px;
+    flex-direction: column;
+}
